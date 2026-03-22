@@ -1,0 +1,39 @@
+/* Project: Clinical Review Slider
+  Business: Boulder Pain Relief Massage, LLC
+  Goal: High-visibility, professional review styling for soft tissue clinics.
+*/
+
+.review-slider-container {
+  background-color: #f9f9f9; /* Clean, medical light grey */
+  border-left: 5px solid #2ecc71; /* Health-tech green accent */
+  padding: 20px;
+  border-radius: 8px;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.review-text {
+  font-style: italic;
+  color: #333;
+  line-height: 1.6;
+}
+
+.review-author {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #2c3e50;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+/* Adds a "Verified Patient" badge look */
+.review-author::after {
+  content: " ✓ Verified Review";
+  color: #2ecc71;
+  font-size: 0.7rem;
+  margin-left: 10px;
+}
